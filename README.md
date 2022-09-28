@@ -1,19 +1,19 @@
-# flatten-switch-album
+# Summary
 
 This repo has two scripts that will help you manage your screenshots and recording from your Switch:
 
-1. flatten_sdcard_album.py - flatten directory structure of an album from the Switch SD card, and rename the files nicely.
+1. flatten_sdcard_album.py - will flatten directory structure of an album from the Switch SD card, and rename the files nicely.
 2. rename_files_from_usb.py - will just rename the files from the Album copied via USB connection to a PC.
 
-## Disclaimer
+# Disclaimer
 
 These scripts are provided as-is. I am not responsible if they delete your data, or eat your homework, or whatever. Make backups before running the scripts and don't tell me I didn't warn you!
 
-## flatten_sdcard_album
+# flatten_sdcard_album
 
 Will move all the files from their respective subfolders into the `Album` folder and rename them in `YYYY-MM-DD_HH-mm-SS` format, keeping their original extensions.
 
-### Before
+## Before
 
 ```text
 Album
@@ -50,7 +50,7 @@ All the files are nested deep inside multiple folders and are a pain to browse t
 
 </details>
 
-### After
+## After
 
 ```text
 Album
@@ -75,7 +75,7 @@ All the files are in one folder and have readable names.
 
 </details>
 
-### Usage
+## Usage
 
 > `python flatten_sdcard_album.py <path_to_nintendo_album>`
 
@@ -83,11 +83,11 @@ For example, assuming you have the script in your `Downloads` folder and your Sw
 
 > `python ~/Downloads/flatten_sdcard_album.py ~/Desktop/Album`
 
-## rename_files_from_usb
+# rename_files_from_usb
 
 Will rename the files in their respective subfolders into `YYYY-MM-DD_HH-mm-SS<suffix>` format, keeping their original extensions. It will keep the files in their respective subfolders, since Switch conveniently names those after the games when using the USB mode.
 
-### Before
+## Before
 
 ```text
 Switch
@@ -107,7 +107,7 @@ Switch
     └── 2022011922010700_c.jpg
 ```
 
-### After
+## After
 
 ```text
 Switch
@@ -127,7 +127,7 @@ Switch
     └── 2022-01-19_22-01-07_00_c.jpg
 ```
 
-### Usage
+## Usage
 
 > `python rename_files_from_usb.py <path_to_nintendo_album>`
 
