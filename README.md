@@ -2,8 +2,8 @@
 
 This repo has two scripts that will help you manage your screenshots and recording from your Switch:
 
-1. flatten_sdcard_album.py - will flatten directory structure of an album from the Switch SD card, and rename the files nicely.
-2. rename_files_from_usb.py - will just rename the files from the Album copied via USB connection to a PC.
+1. `flatten_sdcard_album.py` - will flatten directory structure of an album from the Switch SD card, and rename the files nicely.
+2. `rename_files_from_usb.py` - will just rename the files from an album copied via USB connection to your computer.
 
 ## Table of contents
 
