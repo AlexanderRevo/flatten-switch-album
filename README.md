@@ -5,9 +5,9 @@ This repo has two scripts that will help you manage your screenshots and recordi
 1. flatten_sdcard_album.py - flatten directory structure of an album from the Switch SD card, and rename the files nicely.
 2. rename_files_from_usb.py - will just rename the files from the Album copied via USB connection to a PC.
 
-## TODO
+## Disclaimer
 
-- Make some before/after screenshots.
+These scripts are provided as-is. I am not responsible if they delete your data, or eat your homework, or whatever. Make backups before running the scripts and don't tell me I didn't warn you!
 
 ## flatten_sdcard_album
 
@@ -41,6 +41,15 @@ Album
             └── 2022021420391800-12450B0C782F38E35EF964906DB929D1.mp4
 ```
 
+<details>
+<summary>Show me more!</summary>
+
+All the files are nested deep inside multiple folders and are a pain to browse through. Also, the file names are hard to read, ew.
+
+!["before" directory structure animation](./images/before.gif)
+
+</details>
+
 ### After
 
 ```text
@@ -57,6 +66,15 @@ Album
 └── 2022-02-14_20-39-18.mp4
 ```
 
+<details>
+<summary>Show me more!</summary>
+
+All the files are in one folder and have readable names.
+
+!["after" directory structure screenshot](./images/after.jpg)
+
+</details>
+
 ### Usage
 
 > `python flatten_sdcard_album.py <path_to_nintendo_album>`
@@ -67,7 +85,7 @@ For example, assuming you have the script in your `Downloads` folder and your Sw
 
 ## rename_files_from_usb
 
-Will rename the files in their respective subfolders into `YYYY-MM-DD_HH-mm-SS<suffix>` format, keeping their original extensions.
+Will rename the files in their respective subfolders into `YYYY-MM-DD_HH-mm-SS<suffix>` format, keeping their original extensions. It will keep the files in their respective subfolders, since Switch conveniently names those after the games when using the USB mode.
 
 ### Before
 
