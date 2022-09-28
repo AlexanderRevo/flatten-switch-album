@@ -2,14 +2,14 @@
 
 This repo has two scripts that will help you manage your screenshots and recording from your Switch:
 
-1. flatten-sdcard-album.py - flatten directory structure of an album from the Switch SD card, and rename the files nicely.
-2. rename-files-from-usb.py - will just rename the files from the Album copied via USB connection to a PC.
+1. flatten_sdcard_album.py - flatten directory structure of an album from the Switch SD card, and rename the files nicely.
+2. rename_files_from_usb.py - will just rename the files from the Album copied via USB connection to a PC.
 
 ## TODO
 
 - Make some before/after screenshots.
 
-## flatten-sdcard-album
+## flatten_sdcard_album
 
 Will move all the files from their respective subfolders into the `Album` folder and rename them in `YYYY-MM-DD_HH-mm-SS` format, keeping their original extensions.
 
@@ -59,13 +59,13 @@ Album
 
 ### Usage
 
-> `python flatten-sdcard-album.py <path_to_nintendo_album>`
+> `python flatten_sdcard_album.py <path_to_nintendo_album>`
 
 For example, assuming you have the script in your `Downloads` folder and your Switch album on your desktop:
 
-> `python ~/Downloads/flatten-sdcard-album.py ~/Desktop/Album`
+> `python ~/Downloads/flatten_sdcard_album.py ~/Desktop/Album`
 
-## rename-files-from-usb
+## rename_files_from_usb
 
 Will rename the files in their respective subfolders into `YYYY-MM-DD_HH-mm-SS<suffix>` format, keeping their original extensions.
 
@@ -111,8 +111,8 @@ Switch
 
 ### Usage
 
-> `python rename-files-from-usb.py <path_to_nintendo_album>`
+> `python rename_files_from_usb.py <path_to_nintendo_album>`
 
 For example, assuming you have the script in your `Downloads` folder and your Switch album in a `Switch` folder on your desktop:
 
-> `python ~/Downloads/rename-files-from-usb.py ~/Desktop/Switch`
+> `python ~/Downloads/rename_files_from_usb.py ~/Desktop/Switch`
