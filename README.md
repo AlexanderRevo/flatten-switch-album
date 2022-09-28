@@ -5,7 +5,7 @@ This repo has two scripts that will help you manage your screenshots and recordi
 1. flatten-sdcard-album.py - flatten directory structure of an album from the Switch SD card, and rename the files nicely.
 2. rename-files-from-usb.py - will just rename the files from the Album copied via USB connection to a PC.
 
-# TODO
+## TODO
 
 - Make some before/after screenshots.
 
@@ -15,7 +15,7 @@ Will move all the files from their respective subfolders into the `Album` folder
 
 ### Before
 
-```
+```text
 Album
 ├── 2021
 │   ├── 10
@@ -43,7 +43,7 @@ Album
 
 ### After
 
-```
+```text
 Album
 ├── 2021-10-17_19-54-37.jpg
 ├── 2021-10-18_18-51-39.jpg
@@ -69,10 +69,9 @@ For example, assuming you have the script in your `Downloads` folder and your Sw
 
 Will rename the files in their respective subfolders into `YYYY-MM-DD_HH-mm-SS<suffix>` format, keeping their original extensions.
 
-
 ### Before
 
-```
+```text
 Switch
 ├──  Breath of the Wild
 │   └── 2021103003173900_c.mp4
@@ -92,7 +91,7 @@ Switch
 
 ### After
 
-```
+```text
 Switch
 ├──  Breath of the Wild
 │   └── 2021-10-30_03-17-39_00_c.mp4
