@@ -91,11 +91,15 @@ All the files are in one folder and have readable names.
 
 ## Usage
 
-> `python flatten_sdcard_album.py <path_to_nintendo_album>`
+```bash
+python flatten_sdcard_album.py <path_to_nintendo_album>
+```
 
 For example, assuming you have the script in your `Downloads` folder and your Switch album on your desktop:
 
-> `python ~/Downloads/flatten_sdcard_album.py ~/Desktop/Album`
+```bash
+python ~/Downloads/flatten_sdcard_album.py ~/Desktop/Album
+```
 
 # rename_files_from_usb
 
@@ -143,8 +147,12 @@ Switch
 
 ## Usage
 
-> `python rename_files_from_usb.py <path_to_nintendo_album>`
+```bash
+python rename_files_from_usb.py <path_to_nintendo_album>
+```
 
 For example, assuming you have the script in your `Downloads` folder and your Switch album in a `Switch` folder on your desktop:
 
-> `python ~/Downloads/rename_files_from_usb.py ~/Desktop/Switch`
+```bash
+python ~/Downloads/rename_files_from_usb.py ~/Desktop/Switch
+```
